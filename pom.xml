@@ -10,7 +10,7 @@
 
   <description>Implementation of spring-rabbit instrumentation for spring-cloud-sleuth.
   </description>
-  <url>https://github.com/netshoes/spring-cloud-sleuth-amqp-starter/</url>
+  <url>https://github.com/netshoes/spring-cloud-sleuth-amqp</url>
 
   <licenses>
     <license>
@@ -49,8 +49,8 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
-    <spring.cloud.sleuth.version>1.2.1.RELEASE</spring.cloud.sleuth.version>
-    <spring-rabbit.version>1.7.3.RELEASE</spring-rabbit.version>
+    <spring.cloud.sleuth.version>1.2.6.RELEASE</spring.cloud.sleuth.version>
+    <spring-rabbit.version>1.7.7.RELEASE</spring-rabbit.version>
 
     <!-- Versions Plugins -->
     <maven.plugin.gpg.version>1.5</maven.plugin.gpg.version>

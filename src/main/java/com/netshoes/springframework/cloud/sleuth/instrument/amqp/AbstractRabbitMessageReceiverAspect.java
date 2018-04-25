@@ -35,7 +35,7 @@ public abstract class AbstractRabbitMessageReceiverAspect {
    *
    * @param call AspectJ join point
    * @return Response of method
-   * @throws Throwable
+   * @throws Throwable In case of error
    */
   protected Object executeAroundMessageReceive(ProceedingJoinPoint call) throws Throwable {
     final Object result;
